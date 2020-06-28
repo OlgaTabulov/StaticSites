@@ -1,0 +1,188 @@
+/* only small desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* tablets */
+@media (max-width: 991px) {
+
+}
+
+/* only small tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/* mobile or only mobile */
+@media (max-width: 767px) {
+  h1, h2, h3, h4, h5 {
+    font-family: 'RedHatText-Medium', 'Red Hat Text Medium', 'Red Hat Text';
+    color: #333333;
+    font-weight: 300;
+  }
+  h1 {
+    font-size: 28px;
+    line-height: 64px;
+  }
+  h2 {
+    font-size: 28px;
+    line-height: 48px;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  h4 {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  h5{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .largebody, .body, .smallbody, .microbody {
+    font-family: 'OpenSans-Regular', 'Open Sans';
+    color: #555555;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .largebody {
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .body {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .smallbody {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .microbody {
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .navbar-brand img {
+    margin-left: 10px;
+  }
+  .welcome-area {
+    background: url(../img/welcome-bg.png) no-repeat;
+    background-size: 700px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+    height: 400px;
+  }
+  .welcome-title {
+    margin-top: 150px;
+  }
+  .welcome-area .blue-circle-arrow {
+    margin-top: 50px;
+  }
+  .blue-circle-arrow {
+    width: 50px;
+    height: 50px;
+  }
+  .row_area {
+    width: 90%;
+  }
+  .webicon-blue-circle {
+    width: 100px;
+    height: 100px;
+    margin-right: 0px; 
+  }
+  .flex_column {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  .flex_row {
+    display: flex;
+    flex-direction: column;
+  }
+  .laptop {
+    width: 100%;
+    height: auto;
+  }
+  .highlight_box {
+    width: 100%;
+    height: auto;
+    bottom: 100px;
+    right: 20px;
+  }
+  .team-text-area {
+    width: auto;
+  }
+  .team-arrow {
+    visibility: hidden;
+    display: none;
+  }
+  .service_icons {
+    padding: 20px 0px 0px 0px;
+  }
+  .portfolio_heading {
+    padding: 0px;
+  }
+  .portfolio_text {
+    padding: 0px 0px 40px 0px;
+  }
+  .boardroom {
+    width: 100%;
+    height: auto;
+  }
+  .large_logo {
+    width: 50%;
+    height: auto;
+  }
+  .stacked_logo {
+    position: absolute;
+    top: -20px;
+    left: -16px;
+  }
+  .client-images-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .client-images-row > img {
+    margin-bottom: 40px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .social {
+    margin: 40px 0px;
+  }
+  .footer-copyright {
+    margin-bottom: 20px;
+  }
+  .text-field {
+    width: 300px;
+  }
+  .text-area {
+    width: 300px;
+  }
+  .team-text-area {
+    padding-right: 0px;
+  }
+  .team-text {
+    width: 100%;
+  }
+  .person-frame {
+    margin: 0px;
+    width: 100%;
+  }
+  .team-frames {
+    width: 100%;
+  }
+  
+  .info_area {
+    margin-bottom: 100px;
+  }
+  .webicon-blue-circle-container {
+    display: none;
+  }
+}

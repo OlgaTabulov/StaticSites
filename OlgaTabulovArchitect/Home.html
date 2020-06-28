@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Olga Tabulov</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<style>
+    body {
+        align-items: center;
+    }
+    .body {
+        font-family: Dosis, sans-serif;
+        width: 960px;
+        margin: auto;
+            
+        padding: 0px 16px 0px 16px;
+        display: flex;
+        flex-direction: column;
+    }
+    .header {
+        padding: 35px 0px 10px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .menu {
+        font-size: 16px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .headerTitle {
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+
+    .menuItems {
+        padding: 25px 0px 0px 20px;
+    }
+    .menuItems a {
+        color: #000000;
+        text-decoration: none;
+    }
+    .menuItems a:hover {
+        color: #999;
+    }
+    .content {
+        padding: 64px 48px 48px 48px;
+        display: flex;
+        flex-direction: column;
+        min-height: 500px;
+    }
+    .BlackTitle {
+        text-transform: uppercase;
+        font-size: 50px;
+        padding-bottom: 48px;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    .GreyTitle {
+        color: #666;
+        padding-left: 20px;
+    }
+    .Description {
+        font-size: 25px;
+    }
+    .clients {
+        padding: 70px 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .clientsRow {
+        display: flex;
+        flex-direction: row;
+    }
+    .clientCellContainer {
+        position: relative;
+        width: 30%;
+        margin: 0px 20px 20px 0px;
+        height: 200px;
+        text-align: center;
+        line-height: 200px;
+    }
+
+
+    .clientCellImage {
+        max-width:100%;
+        max-height:100%;
+        vertical-align: middle;
+    }
+
+    .clientCellOverlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #fff;
+        border: 1px #666666 dashed;
+        border-radius: 10px;
+        line-height: 20px;
+    }
+
+    .clientCellContainer:hover .clientCellOverlay {
+        opacity: 0.8;
+    }
+
+    .clientCellText {
+        color: #666666;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        opacity: 1;
+        
+    }
+    .line {
+        width: 100%;
+        height: 1px;
+        background-color: #666666;
+    }
+    .footer {
+        padding: 35px 0px 35px 0px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 12px;
+    }
+</style>
+    <div class="body">
+        <div class="header">
+            <div class="menu">
+                <div class="menuItems"><a href="Home.html">Home</a></div>
+                <div class="menuItems"><a href="About.html">About</a></div>
+                <div class="menuItems"><a href="CV.html">CV</a></div>
+            </div>
+            <div class="headerTitle"></div>
+        </div>
+        <div class="line"></div>
+        <div class="content">
+            <div class="BlackTitle">Olga Tabulov <span class="GreyTitle">Architect</span></div>
+            <div class="Description">Clean, simple, readable solutions advocate. Strategist in the software development process with the ability to lead through coaching towards higher levels of trust, predictability, and performance across teams.</div>
+            <div class="clients">
+                <div class="clientsRow">
+                    <div class="clientCellContainer">
+                        <img src="images/cox-transparent.png" class="clientCellImage" />
+                        <div class="clientCellOverlay">
+                            <a href="https://coxautoinc.ca/">
+                                <div class="clientCellText">Cox Automotive</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="clientCellContainer">
+                        <img src="images/wave-transparent.png" class="clientCellImage" />
+                        <div class="clientCellOverlay">
+                            <a href="https://www.waveapps.com/">
+                                <div class="clientCellText">Wave Financial</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="clientCellContainer">
+                        <img src="images/subaru logo.jpg" class="clientCellImage" />
+                        <div class="clientCellOverlay">
+                            <a href="subaru.html">
+                                <div class="clientCellText">Subaru Canada</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clientsRow">
+                    <div class="clientCellContainer">
+                        <img src="images/thinkripple-logo.png" class="clientCellImage" />
+                        <div class="clientCellOverlay">
+                            <a href="http://www.thinkripple.ca">
+                                <div class="clientCellText">ThinkRipple</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="clientCellContainer">
+                        <img src="images/nymi_logo.png" class="clientCellImage" />
+                        <div class="clientCellOverlay">
+                            <a href="https://nymi.com/">
+                                <div class="clientCellText">Nymi Inc</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="clientCellContainer">
+                        <img src="images/bob-ai-copy.png" class="clientCellImage" />
+                        <div class="clientCellOverlay">
+                            <a href="codeproject.html">
+                                <div class="clientCellText">Code Project</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clientsRow">
+                    <div class="clientCellContainer">
+                        <img src="images/Synerion logo.png" class="clientCellImage" />
+                        <div class="clientCellOverlay">
+                            <a href="synerion.html">
+                                <div class="clientCellText">Synerion North America</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="clientCellContainer">
+                        <img src="images/telmetrics_black_logo2x.png" class="clientCellImage" />
+                        <div class="clientCellOverlay">
+                            <a href="telmetrics.html">
+                                <div class="clientCellText">Telmetrics</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="footer">
+            © 2018 by OLGA TABULOV ARCHITECT
+        </div>
+    </div>
+</body>
+</html>

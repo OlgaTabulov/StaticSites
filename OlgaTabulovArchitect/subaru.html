@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Olga Tabulov</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<style>
+    body {
+        align-items: center;
+    }
+    .body {
+        font-family: Dosis, sans-serif;
+        width: 960px;
+        margin: auto;
+            
+        padding: 0px 16px 0px 16px;
+        display: flex;
+        flex-direction: column;
+    }
+    .header {
+        padding: 35px 0px 10px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .menu {
+        font-size: 16px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .headerTitle {
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+
+    .menuItems {
+        padding: 25px 0px 0px 20px;
+    }
+    .menuItems a {
+        color: #000000;
+        text-decoration: none;
+    }
+    .menuItems a:hover {
+        color: #999;
+    }
+    .content {
+        padding: 64px 48px 48px 48px;
+        display: flex;
+        flex-direction: column;
+        min-height: 500px;
+    }
+    .BlackTitle {
+        text-transform: uppercase;
+        font-size: 50px;
+        padding-bottom: 48px;
+        letter-spacing: 3px;
+    }
+    .GreyTitle {
+        color: #666;
+        padding-left: 20px;
+    }
+    .Description {
+        font-size: 15px;
+        width: 80%;
+    }
+    .sectionsColumn {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .SectionHeader {
+        font-size: 25px;
+    }
+    .sectionItem {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    .ImageWrapper {
+        width: 100%;
+        text-align: center;
+    }
+    .ImageWrapper img {
+        max-width: 80%;
+    }
+    .line {
+        width: 100%;
+        height: 1px;
+        background-color: #666666;
+    }
+    .footer {
+        padding: 35px 0px 35px 0px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 12px;
+    }
+</style>
+    <div class="body">
+        <div class="header">
+            <div class="menu">
+                <div class="menuItems"><a href="Home.html">Home</a></div>
+                <div class="menuItems"><a href="About.html">About</a></div>
+                <div class="menuItems"><a href="CV.html">CV</a></div>
+            </div>
+            <div class="headerTitle">Olga Tabulov</div>
+        </div>
+        <div class="line"></div>
+        <div class="content">
+
+            <div class="BlackTitle">Subaru Comparison Tool</div>
+            <div class="ImageWrapper"><img src="images/subary_compare.png" /></div>
+            <div class="line"></div>
+            <div class="sectionsColumn">
+                <div class="sectionItem">
+                    <div class="SectionHeader">Overview</div>
+                    <div class="Description">
+                        C#, WebServices, WEB API, SQL Server, JQuery and custom plugins, libraries, and controls.
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="sectionItem">
+                    <div class="SectionHeader">Role</div>
+                    <div class="Description">
+                        Lead the development of Competitor Comparison website project. Architect the solution.
+                        <br/><br />
+                        Design and architecture of the code with priority on enhanced user experience and better performance- consulting best approaches to development, training team new approaches to development- working closely with design, front-end development, and QA
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="sectionItem">
+                    <div class="SectionHeader">Challenge</div>
+                    <div class="Description">
+                        The project required incorporation of third-party API calls that provided partial pieces of information. In total, the page had to make 17 web service calls which resulted in the load time of 29 seconds on average.
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="sectionItem">
+                    <div class="SectionHeader">Solution</div>
+                    <div class="Description">
+                        Created local web services that were called through AJAX directly from the page, retrieve DB cache and make necessary API calls in asynchronous and multithreaded order.
+                        <br /><br />
+                        All loading calls were made through callbacks, so the page header would show even if there is a delay on the third party side.
+                        <br /><br />
+                        As a result, the load time of the page was reduced to 0.2-0.5 seconds!
+                        <br /><br />
+                        C#, WebServices, WEB API, SQL Server, JQuery and custom plugins, libraries, and controls
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="line"></div>
+        <div class="footer">
+            © 2018 by OLGA TABULOV ARCHITECT
+        </div>
+    </div>
+</body>
+</html>
