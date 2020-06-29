@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Olga Tabulov</title>
+    <link href="https://fonts.googleapis.com/css2?family=Spinnaker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <style>
+        body {
+            align-items: center;
+        }
+
+        .body {
+            font-family: spinnaker, sans-serif;
+            width: 960px;
+            margin: auto;
+            padding: 0px 16px 0px 16px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            padding: 35px 0px 10px 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .menu {
+            font-size: 16px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .headerTitle {
+            font-size: 25px;
+            text-transform: uppercase;
+        }
+
+        .menuItems {
+            padding: 25px 0px 0px 20px;
+            text-transform: uppercase;
+        }
+
+        .menuItems a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        .menuItems a:hover {
+            color: #999;
+        }
+
+        .content {
+            padding: 40px 0px 40px 0px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            flex-grow: 0;
+            text-align: left;
+            height: auto;
+            align-items: baseline;
+        }
+        .ServiceContainer {
+            width: 320px;
+            box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+            padding: 20px;
+            margin: 20px;
+        }
+        .ServiceContainerTitle {
+            font-size: 30px;
+            font-family: anton, sans-serif;
+            width: 100%;
+            border-bottom: 3px solid rgba(242, 191, 94, 1);
+            padding-bottom: 8px;
+        }
+        .ServiceContainerDescription {
+            font-size: 16px;
+            padding: 8px 0px;
+        }
+        .ServiceContainerPrice {
+            text-align: right;
+            font-size: 22px;
+            font-weight: 400;
+            padding: 8px 0px;
+        }
+        .ServiceContainer img {
+            width: 100%;
+        }
+        .Description {
+            font-size: 22px;
+            padding-bottom: 48px;
+        }
+
+        .line {
+            width: 100%;
+            height: 1px;
+            background-color: #666666;
+        }
+
+        .footer {
+            padding: 35px 0px 35px 0px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 12px;
+        }
+        .grey {
+            color: #999999;
+        }
+    </style>
+    <div class="body">
+        <div class="header">
+            <div class="menu">
+                <div class="menuItems"><a href="Home.html">Home</a></div>
+                <div class="menuItems"><a href="Services.html">Services</a></div>
+                <div class="menuItems"><a href="About.html">About</a></div>
+            </div>
+            <div class="headerTitle">Mobility<span class="grey">Faculty</span></div>
+        </div>
+        <div class="content">
+            <div class="ServiceContainer">
+                <div class="ServiceContainerTitle">Basics of yoga</div>
+                <div class="ServiceContainerDescription">
+                    Do you want to incorporate yoga into your practice? Don't know where to start or how to move it forward? I'm here to break it down and make it easy.
+                    Let's take a trip to yourself!
+                </div>
+                <div class="ServiceContainerPrice">$65.00</div>
+                <img src="images/boat.jpg" />
+            </div>
+
+            <div class="ServiceContainer">
+                <div class="ServiceContainerTitle">Core Workout</div>
+                <div class="ServiceContainerDescription">
+                    Where is your core? No, it's not the six-pack.
+                    There are simple ways to get this critical part of your body stronger.
+                    And the stronger it gets, the easier it is to move your body in every other way, from squats to push-ups.
+                    Come learn!
+                </div>
+                <div class="ServiceContainerPrice">$65.00</div>
+                <img src="images/crow.jpg" />
+            </div>
+
+
+            <div class="ServiceContainer">
+                <div class="ServiceContainerTitle">Mobility training</div>
+                <div class="ServiceContainerDescription">
+                    Teach yourself to move right.
+                    Learn to work smarter, not harder.
+                    Learn what to engage and what to relax as you become stronger.
+                </div>
+                <div class="ServiceContainerPrice">$65.00</div>
+                <img src="images/toetaps.jpeg" />
+            </div>
+
+
+            <div class="ServiceContainer">
+                <div class="ServiceContainerTitle">Full Body Assessment</div>
+                <div class="ServiceContainerDescription">
+                    This is your time to get the answers and clarity.
+                    The appointment includes full postural assessment, muscle under and over development, identifying lazy muscle tendencies and strengths.
+                    We will consider recommendations on how to address any mobility issues we find and what habits can be developed to move your body forward.
+                    <br/>
+                    Your body is continuously changing, you can help it change in the right direction if you are given the right knowledge.
+
+
+                </div>
+                <div class="ServiceContainerPrice">$120.00</div>
+                <img src="images/muscle anatomy.png" />
+            </div>
+
+
+            <div class="ServiceContainer">
+                <div class="ServiceContainerTitle">Flexibility and ROM training</div>
+                <div class="ServiceContainerDescription">
+                    Range of motion training is mostly about knowing anatomy.
+                    <br/>
+                    There is a great difference between mobility expression (ex. splits) and mobility training (ex. hip axial rotation).
+                    We tend to think that to get into splits, we have to practice splits.
+                    Not true.
+                    Let me show you how to break down and work through your mobility stoppers.
+                    <br/>
+                    Come learn!
+                </div>
+                <div class="ServiceContainerPrice">$65.00</div>
+                <img src="images/compas.jpg" />
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="footer">
+            © 2020 by ThinkRipple
+        </div>
+    </div>
+</body>
+</html>
